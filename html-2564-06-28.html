@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ทบทวน HTML 477-302</title>
+    </head>
+            <h1 name="title-h1" id="title-h1">Test title h1</h1>
+            <h2 name="title-h2" id="title-h2">Test title h2</h2>
+            <h3>Test title h3</h3>
+            <h4>Test title h3</h4>
+            <h5>Test title h3</h5>
+            <h6>Test title h3</h6>
+            <a href="www.fms.psu.ac.th" target="_blank">คณะวิทยาการจัดการ</a>
+            <br>
+            <img src="" alt="Jrk">
+            <b><u><i>คณะวิทยาการจัดการ</b></u></i>
+            <br>
+            <strong>มหาวิทยาลัยสงขลานครินทร์</strong>
+            <br>
+            คณะวิทยาการจัดการ<sub>ม.อ.</sub>
+            <br>
+            คณะวิทยาการจัดการ<sup>ม.อ.</sup>
+            <!--list-->
+            <ol type="i">ประเภทของสินค้า
+                <li>เสื้้อผ้า</li>
+                <li>เครื่องสำอาง</li>
+                <li>เฟอร์นิเจอร์</li>
+                <li>คอมพิวเตอร์</li>
+            </ol>
+            <br>
+            <br>
+            <ul type="disc">ประเภทของสินค้า
+                <li>เสื้้อผ้า</li>
+                <li>เครื่องสำอาง</li>
+                <li>เฟอร์นิเจอร์</li>
+                <li>คอมพิวเตอร์</li>
+            </ul>
+            <ul type="circle">ประเภทของสินค้า
+                <li>เสื้้อผ้า</li>
+                <li>เครื่องสำอาง</li>
+                <li>เฟอร์นิเจอร์</li>
+                <li>คอมพิวเตอร์</li>
+            </ul>
+
+            <!--Block&Inline elements-->
+            <div>
+                มหาวิทยาลัยสงขลานครินทร์
+            </div>
+            <div>
+                มหาวิทยาลัยสงขลานครินทร์
+            </div>
+            <span>มหาวิทยาลัยสงขลานครินทร์</span>
+            <span>คณะวิทยาการจัดการ</span>
+            <!--table-->
+            <border="1">
+                <tr>
+                    <td>#</td>
+                    <td>รหัสสินค้า</td>
+                    <td>ชื่อสินค้า</td>
+                    <td>รายละเอียด</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>PD001</td>
+                    <td>โต๊ะทานข้าว</td>
+                    <td>โต๊ะทานข้าว 4 ที่นั่ง</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>PD002</td>
+                    <td>โซฟา</td>
+                    <td>โซฟาไม้สักบุผ้า</td>
+                </tr>
+            <!--form-->
+            <h2>เข้าสู่ระบบ</h2>
+            <form method="GET" action="Check_login.html">
+                <lable for="username">รหัสผู้ใช้งาน</lable>
+                <input type="text" id="username">
+                <br>
+                <lable for="passwd">รหัสผ่าน</lable>
+                <input type="password" id="passwd">
+                <br>
+                <input type="checkbox">จำรหัสผู้ใช้งาน
+                <br>
+                <input type="radio" name="user_type">นักศึกษา
+                <input type="radio" name="user_type">อาจารย์
+                <br>
+                <lable for="desc">รายละเอียด</lable>
+                <textarea id="desc" rows="5"></textarea>
+                <br>
+                <input type="file">
+                <br>
+                <select name="type">
+                    <option value="stuent">นักศึกษา</option>
+                    <option value="lecturer">อาจารย์</option>
+                </select>
+                <input type="submit" value="เข้าสู่ระบบ">
+                <input type="reset" value="ยกเลิก">
+            </form>
+        </body>
+    
+</html>
